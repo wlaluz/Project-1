@@ -6,7 +6,14 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-[FileBeats-Playbook](https://github.com/wlaluz/Project-1/blob/main/Ansible/filebeat-config.yml)
+[ansible.cfg.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/ansible.cfg)
+[fileBeats.config.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/filebeat-config.yml)
+[FileBeats-Playbook.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/filebeat-config.yml)
+[metric.config.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/metricbeat-config.yml)
+[metric-playbook.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/metricbeat-playbook.yml)
+[pentest.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/Pentest.yml)
+[install-elk.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/install-elk.yml)
+
 
 This document contains the following details:
 - Description of the Toplogy
@@ -43,7 +50,7 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _Jump Box_ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP address:
+Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP address:
 - My home network
 
 Machines within the network can only be accessed by The Jump Box.
