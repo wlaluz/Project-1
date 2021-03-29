@@ -6,13 +6,13 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-[ansible.cfg.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/ansible.cfg)
-[fileBeats.config.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/filebeat-config.yml)
-[FileBeats-Playbook.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/filebeat-config.yml)
-[metric.config.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/metricbeat-config.yml)
-[metric-playbook.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/metricbeat-playbook.yml)
-[pentest.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/Pentest.yml)
-[install-elk.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/install-elk.yml)
+- [ansible.cfg.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/ansible.cfg)
+- [fileBeats.config.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/filebeat-config.yml)
+- [FileBeats-Playbook.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/filebeat-config.yml)
+- [metric.config.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/metricbeat-config.yml)
+- [metric-playbook.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/metricbeat-playbook.yml)
+- [pentest.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/Pentest.yml)
+- [install-elk.yml](https://github.com/wlaluz/Project-1/blob/main/Ansible/install-elk.yml)
 
 
 This document contains the following details:
